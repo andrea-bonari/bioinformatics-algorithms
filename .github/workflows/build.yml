@@ -1,0 +1,37 @@
+name: Deploy Quartz site to GitHub Pages
+ 
+on:
+  push:
+    branches:
+      - master
+ 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+ 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+ 
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Build Quartz
+        uses: andrea-bonari/quartz@v4
+        with:
+          site_title: "Bioinformathics algorithms"
+          site_slug: "andrea-bonari.github.io/bioinformatics-algorithms"
+          site_url: "https://github.com/andrea-bonari/bioinformatics-algorithms"
+ 
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
