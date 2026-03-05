@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aritmetica/Aritmetica binaria.md",
+                "file": "Molecular Biology/Bioinformatics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aritmetica binaria"
+              "title": "Bioinformatics"
             }
           }
         ]
@@ -167,17 +167,27 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
   "active": "211b4075f4840778",
   "lastOpenFiles": [
+    "Introduzione al corso.md",
+    "index.md",
+    "Molecular Biology/Bioinformatics.md",
+    "data/Pasted image 20260226200611.png",
+    "data/Pasted image 20260226085703.png",
+    "Programmazione concorrente.md",
+    "data/Pasted image 20260226095527.png",
+    "data/Pasted image 20260226092444.png",
+    "data/Pasted image 20260226090921.png",
+    "data/Pasted image 20260226090320.png",
+    "data",
+    "Molecular Biology",
     "VHDL/Linguaggio VHDL.md",
     "Reti logiche/Logiche programmabili.md",
     "Reti logiche/Algebra di Boole.md",
     "Reti logiche/Circuiti sequenziali/Circuiti sequenziali.md",
-    "index.md",
     "Aritmetica/Numeri a virgola mobile.md",
     "Aritmetica/Aritmetica binaria.md",
     "VHDL/Process.md",
@@ -189,15 +199,8 @@
     "Reti logiche/Circuiti sequenziali/Sintesi sequenziale sincrona.md",
     "Reti logiche/Circuiti sequenziali/Registri.md",
     "data/Pasted image 20260114143341.png",
-    "data/Pasted image 20260114142550.png",
-    "data/Pasted image 20260114142511.png",
     "Reti logiche/Circuiti sequenziali/FSM non completamente specificate.md",
-    "data/Pasted image 20260114141903.png",
-    "data/Pasted image 20260114141349.png",
-    "Introduzione al corso.md",
     "Dispensa 2a parte API.md",
-    "data/Pasted image 20251218181725.png",
-    "data/Pasted image 20251218162151.png",
     "Algebra di Boole/Reti logiche/Circuiti sequenziali/Analisi delle macchine sequenziali.md",
     "Sintesi di reti combinatorie a più livelli.md",
     "Algebra di Boole/Reti logiche/Sintesi di reti combinatorie a più livelli.md",
@@ -207,16 +210,12 @@
     "Componenti fisiche di internet.md",
     "VHDL",
     "Reti logiche",
-    "data",
     "Algebra di Boole",
     "temp",
     "Funzioni a più variabili/Calcolo integrale/Integrale triplo.md",
     "Funzioni a più variabili/Ottimizzazione/Ottimizzazione libera.md",
     "Dimostrazioni.md",
-    "Funzioni a più variabili/Calcolo differenziale/Derivabilità di funzioni a più variabili.md",
-    "Funzioni a più variabili/Calcolo differenziale/Derivata seconda per funzioni a due variabili.md",
     "Equazioni differenziali/Studio qualitativo",
-    "Funzioni a più variabili/Calcolo integrale",
-    "Funzioni a più variabili/Ottimizzazione"
+    "Funzioni a più variabili/Calcolo integrale"
   ]
 }
