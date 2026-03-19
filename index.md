@@ -2,3 +2,4 @@ The course introduces computational biology and bioinformatics, starting with a 
 
 1. [[Introduzione al corso]]
 2. [[Bioinformatics]]
+	1. [[Sequences]]
