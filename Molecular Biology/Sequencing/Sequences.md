@@ -50,6 +50,7 @@ $$\Sigma=\set{A,C,D,E,F,G,H,I,K,L,M,N,P,Q,R,S,T,V,W,Y}$$
 >
 >From this mathematical definition, it's evident that computing the edit distance between two strings implies solving a minimization problem.
 
+If two sequences are similar, we can often infer the function of one's biological function to the other.
 ### Sequence alignment
 >[!note]
 >A sequence alignment is an intuitive overview of differences between two strings. It's done by writing the two strings one below the other and highlighting where edit operation took place.
@@ -137,3 +138,27 @@ If we know the weight used when applying the algorithm, we can determine the fin
 >- Constant gap penalty: fixed negative score for the entire gap, regardless of its length.
 >- Affine gap penalty: combines the constant and linear approaches by defining a constant gap opening penalty and a linear gap extension penalty.
 
+>[!tip] Substitution matrix
+>It's possible to simplify the process using a substitution matrix. Given an alphabet $\Sigma$, the substitution matrix $\sigma\in\mathbb{N}^{|\Sigma|\times|\Sigma|}$, which gives for every pair of symbols $s_{i},s_{j}\in\Sigma$ the weight of the substituting $s_{i}$ by $s_{j}$ in an alignment. The matrix is symmetrical.
+>
+>For $i=j$ the weight represents the positive score assigned by a match.
+>
+>The usage of a substitution matrix changes the recursive computation to:
+>$$E(a(i),b(j))=\max\begin{cases}
+>w_{d}+E(a(i),b(j-1)) \\
+>w_{d}+E(a(i-1),b(j)) \\
+>\sigma(a_{i},b_{j})+E(a(i-1),b(j-1))
+>\end{cases}$$
+
+### Local sequence alignment
+>[!note]
+>Let $a=a_{1}a_{2}\cdots a_{n}$ and $b=b_{1}b_{2}\cdots b_{m}$ be two strings over the alphabet $\Sigma$. Let also $\sigma(s_{i},s_{j})$ be a substitution matrix with scores for all $s_{i},s_{j}\in\Sigma$ and $w_{d}$ be a gap penalty.
+>
+>To find a two substrings that produce the alignment with the maximum possible score we use the Smith-Waterman algorithm. This algorithm uses the following computation:
+>$$M(i,j)=\max\begin{cases}
+>0 \\
+>w_{d}+M(i,j-1) \\
+>w_{d}+M(i-1,j) \\
+>\sigma(a_{i},b_{i})+M(i-1,j-1)
+>\end{cases}$$
+>
