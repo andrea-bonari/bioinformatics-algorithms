@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Molecular Biology/Sequencing/Variant calling/Variant calling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Variant calling"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "criterio della matrice hessiana",
+                "query": "occor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -172,20 +172,32 @@
   },
   "active": "211b4075f4840778",
   "lastOpenFiles": [
-    "Molecular Biology/Bioinformatics.md",
+    "Molecular Biology/Sequencing/Variant calling/Read mapping.md",
+    "data/Pasted image 20260604183502.png",
+    "data/Pasted image 20260604183240.png",
+    "Molecular Biology/Genomes/Genome assembly.md",
+    "index.md",
+    "Molecular Biology/Sequencing/Variant calling/Variant calling.md",
+    "data/Pasted image 20260604174204.png",
+    "data/Pasted image 20260604173830.png",
+    "data/Pasted image 20260604173347.png",
+    "data/Pasted image 20260604172735.png",
+    "data/Pasted image 20260604171459.png",
+    "data/Pasted image 20260604170651.png",
+    "data/Pasted image 20260604165803.png",
+    "data/Pasted image 20260604162331.png",
+    "Introduzione al corso.md",
+    "Molecular Biology/Sequencing/Sequence modeling HMM.md",
+    "Molecular Biology/Sequencing/Multiple sequence alignment.md",
+    "Molecular Biology/Sequencing/Sequence alignment.md",
+    "Molecular Biology/Sequencing/Read mapping/Untitled",
+    "Molecular Biology/Sequencing/Variant calling",
     "Molecular Biology/Sequencing/Sequences.md",
+    "Molecular Biology/Bioinformatics.md",
+    "Molecular Biology/Genomes",
     "Molecular Biology/Sequencing/Local sequence alignment.md",
     "Molecular Biology/Sequencing",
-    "index.md",
-    "data/Pasted image 20260319142601.png",
-    "Introduzione al corso.md",
-    "data/Pasted image 20260226200611.png",
-    "data/Pasted image 20260226085703.png",
     "Programmazione concorrente.md",
-    "data/Pasted image 20260226095527.png",
-    "data/Pasted image 20260226092444.png",
-    "data/Pasted image 20260226090921.png",
-    "data/Pasted image 20260226090320.png",
     "data",
     "Molecular Biology",
     "VHDL/Linguaggio VHDL.md",
@@ -197,26 +209,13 @@
     "VHDL/Process.md",
     "Reti logiche/Sintesi di reti combinatorie a due livelli.md",
     "Reti logiche/Segnali binari.md",
-    "data/Pasted image 20260117173911.png",
-    "data/Pasted image 20260117173419.png",
-    "data/Pasted image 20260117173250.png",
     "Reti logiche/Circuiti sequenziali/Sintesi sequenziale sincrona.md",
     "Reti logiche/Circuiti sequenziali/Registri.md",
     "Reti logiche/Circuiti sequenziali/FSM non completamente specificate.md",
     "Dispensa 2a parte API.md",
-    "Algebra di Boole/Reti logiche/Circuiti sequenziali/Analisi delle macchine sequenziali.md",
-    "Sintesi di reti combinatorie a più livelli.md",
-    "Algebra di Boole/Reti logiche/Sintesi di reti combinatorie a più livelli.md",
     "Aritmetica",
     "Reti logiche/Circuiti sequenziali",
-    "temp/09-16.md",
-    "Componenti fisiche di internet.md",
     "VHDL",
-    "Reti logiche",
-    "Algebra di Boole",
-    "temp",
-    "Funzioni a più variabili/Calcolo integrale/Integrale triplo.md",
-    "Funzioni a più variabili/Ottimizzazione/Ottimizzazione libera.md",
-    "Equazioni differenziali/Studio qualitativo"
+    "Reti logiche"
   ]
 }

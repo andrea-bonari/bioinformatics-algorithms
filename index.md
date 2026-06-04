@@ -2,4 +2,10 @@ The course introduces computational biology and bioinformatics, starting with a 
 
 1. [[Introduzione al corso]]
 2. [[Bioinformatics]]
-	1. [[Sequences]]
+3. [[Sequences]]
+	1. [[Sequence alignment]]
+4. [[Genome assembly]]
+5. [[Read mapping]]
+	1. [[Variant calling]]
+6. [[Multiple sequence alignment]]
+7. [[Sequence modeling HMM]]
