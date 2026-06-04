@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Molecular Biology/Sequencing/Variant calling/Variant calling.md",
+                "file": "Molecular Biology/Sequencing/Variant calling/Read mapping.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variant calling"
+              "title": "Read mapping"
             }
           }
         ]
@@ -172,12 +172,12 @@
   },
   "active": "211b4075f4840778",
   "lastOpenFiles": [
+    "index.md",
+    "Molecular Biology/Sequencing/Variant calling/Variant calling.md",
     "Molecular Biology/Sequencing/Variant calling/Read mapping.md",
     "data/Pasted image 20260604183502.png",
     "data/Pasted image 20260604183240.png",
     "Molecular Biology/Genomes/Genome assembly.md",
-    "index.md",
-    "Molecular Biology/Sequencing/Variant calling/Variant calling.md",
     "data/Pasted image 20260604174204.png",
     "data/Pasted image 20260604173830.png",
     "data/Pasted image 20260604173347.png",

@@ -15,7 +15,7 @@ Search algorithms like Smith-Waterman are quite slow, but faster search algorith
 >
 >![[Pasted image 20260604154206.png|center]]
 >
->$ is a symbol that does not appear anywhere in our genome template $T$, we define it to be lexycografically less than our other characters, therefore the $ enforces a lexicographic rule that we know from dictionaries (for instance, "over" comes before "overture"). The $ also ensures that no suffix will be considered as a prefix of any other suffix.
+>\$ is a symbol that does not appear anywhere in our genome template $T$, we define it to be lexycografically less than our other characters, therefore the \$ enforces a lexicographic rule that we know from dictionaries (for instance, "over" comes before "overture"). The \$ also ensures that no suffix will be considered as a prefix of any other suffix.
 >
 >If $L'$ is the maximum length of any read, then the runtime of the trie algorithm is $T(L',G)=\mathcal{O}(L'\cdot G)$ for matching and $T(n_{b})=\mathcal{O}(n_{b})$ for trie construction, where $n_{b}$ is the combined length of our reads. This is quite time efficient, however the amount of memory required for the trie is in the worst case proportional to the total length of the reads, which can be enormous $S(n_{b})=\mathcal{O}(n_{b})$.
 
