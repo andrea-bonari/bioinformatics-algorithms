@@ -1,9 +1,10 @@
-## Obiettivi dell'insegnamento
+## Teaching objectives
 Bioinformatics represents an application domain of increasing interest and importance for computer science. This discipline arose from the increasing need to develop appropriate computational methods for different problems of molecular biology and genetics, including the analysis of biological sequences (DNA, RNA, proteins). More specifically, recent next-generation sequencing technologies allow to generate massive amounts of biological sequence data that pose complex problems and require specific algorithms and computational analyses for their efficient and effective processing.
 
 The goal of the course is to introduce students to some of the most important algorithms (and their underlying concepts) used in computational biology/bioinformatics, especially regarding those used for aligning biological sequences and identifying their locations in the reference genome. Also the assembly of a genome from short sequences, the modeling of functional biological sequences and the identification of mutations in a sequenced genome will be discussed. Each topic is treated both theoretically and practically. By discussing also alternative approaches for several of the algorithms, including their advantages and diadvantages, the students can learn how effective and efficient algorithms can be designed and when approximate solutions are preferable.
 
-## Risultati di apprendimento attesi
+## Expected learning outcomes
+
 | Dublin Descriptors | Expected learning outcomes |
 |-------------------|----------------------------|
 | Knowledge and understanding (DD1) | Students will learn how to align two or more sequences to each other including global and local sequence alignment and multiple sequence alignment; align short sequences produced by modern sequencing technology to a reference genome through read mapping; assemble a genome from short sequences produced by modern sequencing technology using genome assembly; model functional biological sequences by means of Hidden Markov Models; identify differences in a sequenced genome with respect to a reference genome through variant or mutation calling |
@@ -13,7 +14,7 @@ The goal of the course is to introduce students to some of the most important al
 | Lifelong learning skills (DD5) | Given the discussion of multiple alternative approaches and underlying concepts students can learn to approach the same algorithmic problem in different ways and from different sometimes opposing starting points; learn which aspects to pay attention to when studying a specific approach such as time and space complexity and inexact versus exact solutions |
 
 
-## Argomenti trattati
+## Topics covered
 1. (Very brief) Introduction to the biological background
     - Cells, biological molecules (DNA, RNA, proteins) and cellular processes
     - DNA sequencing techniques
@@ -54,8 +55,8 @@ The goal of the course is to introduce students to some of the most important al
     - HMM training: learning model parameters
 
 
-## Prerequisiti
+## Prerequisites
 Basic knowledge of algorithms and algorithmic complexity
 
-## Modalità di valutazione
+## Evaluation methods
 The assessment will be based on a written exam to be taken in the exam sessions defined by the school and covering all aspects in the syllabus. The exam will assign up to 60 points (+ 6 possible bonus points). 30 cum laude will be assigned when the total score exceeds 64 points.

@@ -1,6 +1,6 @@
 The course introduces computational biology and bioinformatics, starting with a brief biological background covering cells, DNA, RNA, proteins, and sequencing techniques. It covers sequence alignment, including pairwise alignments with dynamic programming (Needleman-Wunsch, Smith-Waterman), longest common substring, and multiple sequence alignment methods such as center star, tree-based progressive alignment, profile-based weighting, and motif scoring. Next, it addresses read alignment for next-generation sequencing using suffix trees/arrays, Burrows-Wheeler transform, FM index, and exact/inexact matching. De-novo genome assembly is taught using de Bruijn graphs and Eulerian paths. Variant calling covers single nucleotide variants, copy number variants, and germline vs. somatic mutations. Finally, Hidden Markov Models are introduced for sequence modeling, including Viterbi decoding, posterior decoding, and parameter learning.
 
-1. [[Introduzione al corso]]
+1. [[Introduction to the course]]
 2. [[Bioinformatics]]
 3. [[Sequences]]
 	1. [[Sequence alignment]]
@@ -8,4 +8,4 @@ The course introduces computational biology and bioinformatics, starting with a 
 5. [[Read mapping]]
 	1. [[Variant calling]]
 6. [[Multiple sequence alignment]]
-7. [[Sequence modeling HMM]]
+7. [[Sequence modeling]]
